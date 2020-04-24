@@ -9,24 +9,6 @@ Automatic detection of anatomical landmarks is an important step for a wide rang
 <img style="float: center;" src="images/actions.png" width="250">
 </p>
 
----
-## Results
-Here are few examples of the learned agent for landmark detection on unseen data:
-
-* Detecting the apex point and center of mitral valve in short-axis cardiac MRI 
-
-
-* Detecting the anterior commissure (AC) and posterior commissure (PC) point in adult brain MRI 
-
-* Detecting the left and right cerrebellum point in fetal head ultrasound 
-
-<p align="center">
-<img src="./images/marl.gif" width="255">
-</p>
-
-
----
-
 ## Usage
 ```
 usage: DQN.py [-h] [--gpu GPU] [--load LOAD] [--task {play,eval,train}]
