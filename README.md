@@ -9,6 +9,22 @@ Automatic detection of anatomical landmarks is an important step for a wide rang
 <img style="float: center;" src="images/actions.png" width="250">
 </p>
 
+
+
+---
+## Results
+Example of the multi-agent model locating the kidney, trochanter, heart, and knee in a 3D whole body Dixon water MRI. Red is the target bounding box, yellow is the multi-agent bounding box.
+
+
+<p align="center">
+<img src="./images/normal6_W.gif">
+</p>
+
+
+---
+
+
+
 ## Usage
 ```
 usage: DQN.py [-h] [--gpu GPU] [--load LOAD] [--task {play,eval,train}]

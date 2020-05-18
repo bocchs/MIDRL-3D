@@ -3,6 +3,7 @@
 # File: dataReader.py
 # Author: Amir Alansary <amiralansary@gmail.com>
 # Modified: Athanasios Vlontzos <athanasiosvlontzos@gmail.com>
+# Modified: Alex Bocchieri <abocchi2@jhu.edu>
 
 
 import warnings

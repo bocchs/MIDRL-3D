@@ -4,6 +4,7 @@
 # Author: Yuxin Wu <ppwwyyxxc@gmail.com>
 # Modified: Amir Alansary <amiralansary@gmail.com>
 # Modified: Athanasios Vlontzos <athanasiosvlontzos@gmail.com>
+# Modified: Alex Bocchieri <abocchi2@jhu.edu>
 
 import random
 import time
