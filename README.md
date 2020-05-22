@@ -1,15 +1,6 @@
-# Multiple Anatomical Landmark Detection using Multi-agent RL
+## Multitask radiological modality invariant landmark localization using deep reinforcement learning
 
-Automatic detection of anatomical landmarks is an important step for a wide range of applications in medical image analysis. The location of anatomical landmarks is interdependent and non-random in a human anatomy, hence locating one is able to help locate others. In this project, we formulate the landmark detection problem as a cocurrent partially observable markov decision process (POMDP) navigating in a medical image environment towards the target landmarks. We create a collaborative Deep Q-Network (DQN) based architecture where we share the convolutional layers amongst agents, sharing thus implicitly knowledge. This code also supports both fixed- and multi-scale search strategies with hierarchical action steps in a coarse-to-fine manner.
-
-* Code is part of [Tensorpack-medical project](https://github.com/amiralansary/tensorpack-medical). 
-
-<p align="center">
-<img style="float: center;" src="images/Colab_dqn_BW.png" width="465">
-<img style="float: center;" src="images/actions.png" width="250">
-</p>
-
-
+This work presents multitask modality invariant deep reinforcement learning framework (MIDRL) for landmark localization across multiple different orgrans (in a single volume) and modalities using a multiple reinforcement learning agents. 
 
 ---
 ## Results
@@ -20,9 +11,7 @@ Example of the multi-agent model locating the kidney, trochanter, heart, and kne
 <img src="./images/normal6_W.gif">
 </p>
 
-
 ---
-
 
 
 ## Usage
@@ -67,13 +56,7 @@ python DQN.py --task play  --gpu 0 --load data/models/DQN_multiscale_brain_mri_p
 ```
 
 ### Citation 
-To cite this work use the below bibtex item.
-https://arxiv.org/pdf/1907.00318.pdf
-```
-@article{Vlontzos2019,
-author = {Vlontzos, Athanasios and Alansary, Amir and Kamnitsas, Konstantinos and Rueckert, Daniel and Kainz, Bernhard},
-title = {Multiple Landmark Detection using Multi-Agent Reinforcement Learning},
-journal={MICCAI}
-year = {2019}
-}
-```
+To cite this work:
+
+### References
+[1] Athanasios Vlontzos, Amir Alansary, Konstantinos Kamnitsas, Daniel Rueckert, and Bern-hard Kainz.  Multiple landmark detection using multi-agent reinforcement learning.  InInternational Conference on Medical Image Computing and Computer-Assisted Interven-tion, pages 262–270. Springer, 2019
